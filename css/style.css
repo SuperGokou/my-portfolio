@@ -484,3 +484,49 @@ footer p::before {
     font-size: 1.2rem;
     margin-right: 0.5rem;
 }
+
+/* 语言切换按钮样式 */
+.language-switcher {
+    display: flex;
+    gap: 15px;
+    margin-left: 2rem;
+}
+
+.lang-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.lang-btn.active {
+    color: #6091cc;
+    font-weight: 600;
+}
+
+/* 移动端语言切换 */
+.mobile-lang-switcher {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 1rem;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .language-switcher {
+        margin-left: auto;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .language-switcher {
+        display: none;
+    }
+
+    .mobile-lang-switcher {
+        display: flex;
+    }
+}
