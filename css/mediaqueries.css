@@ -62,10 +62,10 @@
         width: 25px;
     }
     .logo img {
-        max-width: 35px;
+        max-width: 10px;
     }
     #profile {
-        height:72vh;
+        height:60vh;
         margin-bottom: 0;
     }
     .about-containers, .contact-info-upper-container,
@@ -81,11 +81,11 @@
     .nav-links {
         flex-direction: column;
         gap: 0.5rem;
-        text-align: center;
+        text-align: left;
     }
     .section_pic_container {
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
         margin: 0 auto 2rem;
     }
     .section_text {

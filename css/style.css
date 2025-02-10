@@ -62,7 +62,7 @@ nav ul li {
 }
 
 .logo img {
-    max-width: 50px;
+    width: 30px;
     height: auto;
 }
 
@@ -181,13 +181,13 @@ section {
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    height: 85vh;
+    height: 60vh;
 }
 
 .section_pic_container {
     display: flex;
-    height: 475px;
-    width: 475px;
+    height: 220px;
+    width: 220px;
     margin: auto 0;
 }
 
